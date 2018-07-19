@@ -18,6 +18,7 @@ Proud employee of [![](svg:globe)SIB Visions](https://sibvisions.com)
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz)
  * [![](svg:github)GitHub](https://github.com/RobertZenz)
  * [![](svg:globe)SourceForge](https://sourceforge.net/u/userid-1056943/profile/)
+ * [![](svg:linkedin)LinkedIn](https://www.linkedin.com/in/robert-zenz-026015162/)
  * [![](svg:stack-exchange)Stack Exchange](https://stackexchange.com/users/60318/bobby)
  * [![](svg:globe)SIB Visions Blog](https://blog.sibvisions.com/author/rzenz/)
 
