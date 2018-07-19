@@ -20,7 +20,9 @@ The avatar (`avatar.png`) and logo (`logo.svg`) have to be considered
 "All Rights Reserved" with the exception of cloning this repository. However,
 modifications or reuse of these two files are not allowed.
 
-The icons (`icons.svg`) is a SVG sprite with icons from [Font Awesome](https://github.com/FortAwesome/Font-Awesome), see the attached license file for further details.
+The icons (`icons.svg`) is a SVG sprite with icons from
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome), see the attached
+license file for further details.
 
 
 Build
