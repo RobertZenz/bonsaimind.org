@@ -7,7 +7,7 @@ Pandoc](https://pandoc.org/).
 
 
 License
-=======
+-------
 
 The build script (`build.sh`), the Lua filter (`filter.lua`) and the template
 file (`index.template`) can be considered to be under CC0 or Public Domain.
@@ -24,6 +24,6 @@ The icons (`icons.svg`) is a SVG sprite with icons from [Font Awesome](https://g
 
 
 Build
-=====
+-----
 
 Run the build script to generate the website.
