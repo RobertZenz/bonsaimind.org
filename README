@@ -1,0 +1,29 @@
+bonsaimind.org
+==============
+
+This is the source code for the [bonsaimind.org](https://www.bonsaimind.org)
+website. It is a Markdown document which is converted to HTML with
+Pandoc](https://pandoc.org/).
+
+
+License
+=======
+
+The build script (`build.sh`), the Lua filter (`filter.lua`) and the template
+file (`index.template`) can be considered to be under CC0 or Public Domain.
+
+The index file (`index.markdown`) has to be considered "All Rights Reserved",
+with the exception of cloning this repository, and being edited for the purpose
+of merging these changes back.
+
+The avatar (`avatar.png`) and logo (`logo.svg`) have to be considered
+"All Rights Reserved" with the exception of cloning this repository. However,
+modifications or reuse of these two files are not allowed.
+
+The icons (`icons.svg`) is a SVG sprite with icons from [Font Awesome](https://github.com/FortAwesome/Font-Awesome), see the attached license file for further details.
+
+
+Build
+=====
+
+Run the build script to generate the website.
