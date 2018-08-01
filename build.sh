@@ -5,8 +5,15 @@
 # Licensed under CC0 or Public Domain
 
 
+# The content directory.
+CONTENT="./content"
+
 # The out directory.
 OUT="./out"
+
+# The processing directory.
+PROCESSING="./processing"
+
 
 # Check if the out directory 
 if [ ! -d "$OUT" ]; then
@@ -14,16 +21,16 @@ if [ ! -d "$OUT" ]; then
 fi
 
 # Run Pandoc.
-./pandoc-linux-x64 \
+$PROCESSING/pandoc-linux-x64 \
 	--from=markdown-smart+ascii_identifiers \
 	--to=html \
 	--output="$OUT/index.html" \
 	--eol=lf \
-	--template="index.template" \
-	--lua-filter="filter.lua" \
-	"index.markdown"
+	--template="$PROCESSING/index.template" \
+	--lua-filter="$PROCESSING/filter.lua" \
+	"$CONTENT/index.markdown"
 
 # Copy the resource files.
-cp -f "avatar.png" "$OUT/"
-cp -f "icons.svg" "$OUT/"
-cp -f "logo.svg" "$OUT/"
+cp -f "$CONTENT/avatar.png" "$OUT/"
+cp -f "$CONTENT/icons.svg" "$OUT/"
+cp -f "$CONTENT/logo.svg" "$OUT/"
