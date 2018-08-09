@@ -128,7 +128,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to decompile class fi
 
  * Java
 
-EvalEx is a handy expression evaluator for Java.
+A handy mathematical expression evaluator for Java.
 
  * [![](svg:github)GitHub](https://github.com/uklimaschewski/EvalEx/)
 	
