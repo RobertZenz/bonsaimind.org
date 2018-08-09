@@ -46,7 +46,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to define arbitrary m
  * CSS
  * Lua
 
-This website, generated from a Markdown document with [Pandoc](https://pandoc.org/).
+This website, generated from a [Markdown](https://daringfireball.net/projects/markdown/) document with [Pandoc](https://pandoc.org/).
 
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/bonsaimind.org)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/bonsaimind.org)
@@ -142,7 +142,7 @@ Discontinued
 
  * Java
  
-An easy to use launcher for Minecraft (Beta 1.6 and below).
+An easy to use launcher for [Minecraft](https://minecraft.net) (Beta 1.6 and below).
 
  * [![](svg:home)Homepage](http://easyminelauncher.bonsaimind.org)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/EasyMineLauncher)
@@ -153,7 +153,7 @@ An easy to use launcher for Minecraft (Beta 1.6 and below).
 	
  * Java
 
-An unfinished easy to use launcher for Minecraft (Beta 1.7 and above).
+An unfinished easy to use launcher for [Minecraft](https://minecraft.net) (Beta 1.7 and above).
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/EasyMineLauncher2)
 
@@ -163,7 +163,7 @@ An unfinished easy to use launcher for Minecraft (Beta 1.7 and above).
 
  * Java
 
-A library with various tools and functions for Minecraft.
+A library with various tools and functions for [Minecraft](https://minecraft.net).
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/MinecraftMiddleKnife)
 
@@ -173,7 +173,7 @@ A library with various tools and functions for Minecraft.
 
  * Lua
 
-A discontinued subgame for Minetest.
+A discontinued subgame for [Minetest](https://www.minetest.net/).
 
  * [![](svg:gitlab)GitLab](https://gitlab.com/minetest-australopithecus)
 
