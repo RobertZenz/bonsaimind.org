@@ -19,16 +19,16 @@ edited for the purpose of merging these changes back.
 
 The avatar (`content/avatar.png`) and logo (`content/logo.svg`) have to be
 considered "All Rights Reserved" with the exception of cloning this repository.
-However, modifications or reuse of these two files are not allowed.
+However, modifications or reuse of these two files is not permitted.
 
-The icons (`content/icons.svg`) is a SVG sprite with icons from
+The icons (`content/icons.svg`) are a SVG sprite with icons from
 [Font Awesome](https://github.com/FortAwesome/Font-Awesome), see the attached
 license file for further details.
 
-The Pandoc](https://pandoc.org/) executable (`processing/pandoc-linux-x64') is
+The [Pandoc](https://pandoc.org/) executable (`processing/pandoc-linux-x64') is
 the pre-built release package from
 the [Pandoc release site](https://github.com/jgm/pandoc/releases/) and is
-licenses under the GPLv2+.
+licensed under the GPLv2+.
 
 
 Build

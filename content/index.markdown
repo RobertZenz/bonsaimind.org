@@ -91,7 +91,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to define a scroll-of
 
  * JavaScript
 
-A [Palemoon](https://www.palemoon.org/) addon which allows to customize the GUI.
+A [Pale Moon](https://www.palemoon.org/) addon which allows to customize the GUI.
 
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/palemoon-extension-werewolf/)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/palemoon-extension-werewolf)
@@ -183,7 +183,7 @@ A discontinued subgame for Minetest.
 
  * JavaScript
 
-A simple base for [Firefox](https://www.mozilla.org/en-US/firefox/)/[Palemoon](https://www.palemoon.org/) addons which "just" need to manipulate the browser CSS.
+A simple base for [Firefox](https://www.mozilla.org/en-US/firefox/)/[Pale Moon](https://www.palemoon.org/) addons which "just" need to manipulate the browser CSS.
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/SimpleFirefoxAddonBase)
 
@@ -193,7 +193,7 @@ A simple base for [Firefox](https://www.mozilla.org/en-US/firefox/)/[Palemoon](h
 
  * JavaScript
 
-A [Firefox](https://www.mozilla.org/en-US/firefox/)-[Palemoon](https://www.palemoon.org/) addon which makes the bars thinner and provides additional customization options.
+A [Firefox](https://www.mozilla.org/en-US/firefox/)/[Pale Moon](https://www.palemoon.org/) addon which makes the bars thinner and provides additional customization options.
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/ThinBars)
 
@@ -203,7 +203,7 @@ A [Firefox](https://www.mozilla.org/en-US/firefox/)-[Palemoon](https://www.palem
 
  * JavaScript
 
-A [Firefox](https://www.mozilla.org/en-US/firefox/)-[Palemoon](https://www.palemoon.org/) addon which makes the bookmarks bar thinner and provides additional customization options.
+A [Firefox](https://www.mozilla.org/en-US/firefox/)/[Pale Moon](https://www.palemoon.org/) addon which makes the bookmarks bar thinner and provides additional customization options.
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/ThinBookmarks)
 
@@ -213,7 +213,7 @@ A [Firefox](https://www.mozilla.org/en-US/firefox/)-[Palemoon](https://www.palem
 
  * JavaScript
 
-A [Firefox](https://www.mozilla.org/en-US/firefox/)-[Palemoon](https://www.palemoon.org/) addon which makes the tabs thinner and provides additional customization options.
+A [Firefox](https://www.mozilla.org/en-US/firefox/)/[Pale Moon](https://www.palemoon.org/) addon which makes the tabs thinner and provides additional customization options.
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/ThinTabs)
 
