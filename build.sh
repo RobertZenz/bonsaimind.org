@@ -28,6 +28,9 @@ $PROCESSING/pandoc-linux-x64 \
 	--eol=lf \
 	--template="$PROCESSING/index.template" \
 	--lua-filter="$PROCESSING/filter.lua" \
+	--variable="DATE:$(date +%Y-%m-%d\ %H:%M:%S\ %::z)" \
+	--variable="GIT_REPO:https://gitlab.com/RobertZenz/bonsaimind.org" \
+	--variable="GIT_COMMIT:$(git rev-parse HEAD 2> /dev/null)" \
 	"$CONTENT/index.markdown"
 
 # Copy the resource files.

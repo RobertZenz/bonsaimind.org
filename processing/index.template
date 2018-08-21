@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="author" content="Robert Zenz">
 		<meta name="description" content="A list of all projects and references regarding Robert Zenz.">
+		<meta name="revised" content="$DATE$">
+		<meta name="git-repo" content="$GIT_REPO$">
+		<meta name="git-commit" content="$GIT_COMMIT$">
 		
 		<title>BonsaiMind</title>
 		
