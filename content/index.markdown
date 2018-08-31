@@ -93,6 +93,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to define a scroll-of
 
 A [Pale Moon](https://www.palemoon.org/) addon which allows to customize the GUI.
 
+ * [![](svg:home)Homepage](https://addons.palemoon.org/addon/werewolf/)
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/palemoon-extension-werewolf/)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/palemoon-extension-werewolf)
 
