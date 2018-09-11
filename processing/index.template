@@ -84,8 +84,6 @@
 			
 			.links > ul > li > a,
 			.links > ul > li > a:visited {
-				border: 1px solid #ce5c00;
-				border-radius: 3px;
 				margin-top: 0.2em;
 				text-decoration: none;
 				padding: 0.28em 0.33em 0.16em 0.33em;
@@ -115,9 +113,6 @@
 			}
 			
 			.technologies > ul > li {
-				background-color: #555753;
-				border: 1px solid #555753;
-				border-radius: 3px;
 				color: #ffffff;
 				display: inline;
 				font-size: 66%;
@@ -197,6 +192,8 @@
 				
 				.links > ul > li > a,
 				.links > ul > li > a:visited {
+					border: 1px solid #ce5c00;
+					border-radius: 3px;
 					background-color: #ce5c00;
 					color: #ffffff;
 				}
@@ -216,6 +213,12 @@
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;
+				}
+				
+				.technologies > ul > li {
+					background-color: #555753;
+					border: 1px solid #555753;
+					border-radius: 3px;
 				}
 				
 				#section-about {
@@ -252,7 +255,7 @@
 				
 				.links > ul > li > a,
 				.links > ul > li > a:visited {
-					background-color: #ffffff;
+					border-left: 1px solid #ce5c00;
 					color: #2e3436;
 				}
 				
@@ -263,6 +266,10 @@
 				.section {
 					page-break-before: always;
 					width: 100%;
+				}
+				
+				.technologies > ul > li {
+					border-left: 1px solid #555753;
 				}
 				
 				#section-about {
