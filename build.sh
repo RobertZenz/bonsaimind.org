@@ -14,6 +14,8 @@ OUT="./out"
 # The processing directory.
 PROCESSING="./processing"
 
+# The template directory.
+TEMPLATES="./templates"
 
 # Check if the out directory 
 if [ ! -d "$OUT" ]; then
@@ -26,7 +28,7 @@ $PROCESSING/pandoc-linux-x64 \
 	--to=html \
 	--output="$OUT/index.html" \
 	--eol=lf \
-	--template="$PROCESSING/index.template" \
+	--template="$TEMPLATES/index.template" \
 	--lua-filter="$PROCESSING/filter.lua" \
 	--variable="DATE:$(date +%Y-%m-%d\ %H:%M:%S\ %::z)" \
 	--variable="GIT_REPO:https://gitlab.com/RobertZenz/bonsaimind.org" \
