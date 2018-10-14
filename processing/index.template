@@ -200,6 +200,7 @@
 				
 				.links > ul > li > a:hover {
 					background-color: #f57900;
+					border: 1px solid #f57900;
 				}
 				
 				.section {
