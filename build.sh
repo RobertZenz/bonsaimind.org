@@ -11,11 +11,12 @@ CONTENT="./content"
 # The out directory.
 OUT="./out"
 
-# The processing directory.
-PROCESSING="./processing"
-
 # The template directory.
 TEMPLATES="./templates"
+
+# The toolchain directory.
+TOOLCHAIN="./toolchain"
+
 
 # Check if the out directory 
 if [ ! -d "$OUT" ]; then
@@ -23,13 +24,13 @@ if [ ! -d "$OUT" ]; then
 fi
 
 # Run Pandoc.
-$PROCESSING/pandoc-linux-x64 \
+$TOOLCHAIN/pandoc-linux-x64 \
 	--from=markdown-smart+ascii_identifiers \
 	--to=html \
 	--output="$OUT/index.html" \
 	--eol=lf \
 	--template="$TEMPLATES/index.template" \
-	--lua-filter="$PROCESSING/filter.lua" \
+	--lua-filter="$TOOLCHAIN/filter.lua" \
 	--variable="DATE:$(date +%Y-%m-%d\ %H:%M:%S\ %::z)" \
 	--variable="GIT_REPO:https://gitlab.com/RobertZenz/bonsaimind.org" \
 	--variable="GIT_COMMIT:$(git rev-parse HEAD 2> /dev/null)" \
