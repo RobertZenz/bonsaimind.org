@@ -1,0 +1,292 @@
+/*
+ * Licensed under Public Domain or Creative Commons Zero.
+ *
+ * Copyright 2019 Robert'Bobby' Zenz
+ */
+
+
+@import "constants.scss";
+@import "configuration.scss";
+
+
+body {
+	background-color: $WHITE;
+	color: $ALUMINIUM_6;
+	font-family: $font;
+	padding: 0em;
+	
+	@media screen {
+		font-size: $font-size-screen;
+	}
+	
+	@media print {
+		font-size: $font-size-print;
+	}
+}
+
+a,
+a:hover,
+a:visited {
+	color: $ALUMINIUM_6;
+	text-decoration: underline $ALUMINIUM_3;
+	
+	@media print {
+		/* Add the link as additional text to the link. */
+		&:after {
+			content: " (" attr(href) ") ";
+			font-size: 66%;
+		}
+	}
+}
+
+h1 {
+	color: $section-color;
+	display: flex;
+	font-size: 166%;
+	font-weight: normal;
+	margin: 0px;
+	padding-bottom: 0.16em;
+	padding-top: 0.66em;
+	width: 100%;
+	
+	/* The following rules add the left and right lines to the section
+	   headers. */
+	&:after,
+	&:before {
+		content: "";
+		border-bottom: 1px solid $ALUMINIUM_4;
+		display: inline-block;
+		height: 0.66em;
+		vertical-align: middle;
+	}
+	
+	&:after {
+		margin-left: 0.33em;
+		width: 100%;
+	}
+	
+	&:before {
+		margin-right: 0.33em;
+		width: 3em;
+	}
+}
+
+h2 {
+	font-size: 133%;
+	font-weight: normal;
+	margin-bottom: 0em;
+	margin-top: 0px;
+}
+
+
+.card {
+	p {
+		flex: 1 0 auto;
+		font-size: 84%;
+		margin-bottom: 0.3em;
+	}
+	
+	@media screen {
+		background-color: $card-secondary-color;
+		border: 1px solid $card-tertiary-color;
+		border-radius: 3px;
+		color: $card-primary-color;
+		display: flex;
+		flex-direction: column;
+		margin: 0.5em;
+		padding: 0.5em;
+		text-align: left;
+		width: 21.33em;
+	}
+	
+	@media print {
+		border-left: 0.2em solid $card-tertiary-color;
+		margin: 0.5em 1em;
+		padding: 1em;
+		page-break-inside: avoid;
+		width: 100%
+	}
+}
+
+.header {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 48em;
+}
+
+.icon {
+	display: inline-block;
+	fill: currentColor;
+	height: 1em;
+	padding-bottom: 0.2em;
+	padding-right: 0.2em;
+	vertical-align: middle;
+	width: 1em;
+}
+
+.links {
+	margin: 0;
+	padding: 0;
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		
+		li {
+			list-style: none;
+			padding-top: 0.7em;
+			
+			a,
+			a:visited {
+				margin-top: 0.2em;
+				text-decoration: none;
+				padding: 0.28em 0.33em 0.16em 0.33em;
+				white-space: nowrap;
+				
+				@media screen {
+					border: 1px solid $card-links-tertiary-color;
+					border-radius: 3px;
+					background-color: $card-links-secondary-color;
+					color: $card-links-primary-color;
+				}
+				
+				@media print {
+					border-left: 1px solid $card-links-tertiary-color;
+					color: $ALUMINIUM_6;
+				}
+			}
+			
+			a:hover {
+				background-color: $card-links-secondary-hover-color;
+				border: 1px solid $card-links-tertiary-hover-color;
+				text-decoration: none;
+			}
+			
+			@media screen {
+				display: inline-block;
+			}
+			
+			@media print {
+			
+			}
+		}
+	}
+}
+
+.section {
+	@media screen {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 72em;
+		text-align: center;
+	}
+	
+	@media print {
+		page-break-before: always;
+		width: 100%;
+	}
+}
+
+.section-wrapper {
+	@media screen {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+.technologies {	
+	padding: 0;
+	margin: 0;
+	
+	ul {	
+		padding: 0;
+		margin: 0;
+		
+		li {
+			display: inline;
+			font-size: $technologies-font-size;
+			list-style: none;
+			padding: 0.28em 0.66em 0.16em 0.66em;
+			white-space: nowrap;
+			
+			@media screen {
+				background-color: $technologies-secondary-color;
+				border: 1px solid $technologies-tertiary-color;
+				border-radius: 3px;
+				color: $technologies-primary-color;
+			}
+			
+			@media print {
+				background-color: $technologies-primary-color;
+				border-left: 1px solid $technologies-tertiary-color;
+				color: $technologies-secondary-color;
+			}
+		}
+	}
+}
+
+
+#banner {
+	height: $title-height;
+	padding: 0.0em 0.5em 0.5em 0.5em;
+}
+
+#logo {
+	float: left;
+	padding-left: 3em;
+}
+
+/* "Special" rules for the about section. */
+#section-about {
+	figcaption {
+		display: none;
+		visibility: hidden;
+	}
+	
+	figure {
+		float: right;
+		height: $avatar-size;
+		margin: 0;
+		padding: 0;
+		width: $avatar-size;
+	}
+	
+	h2 {
+		margin-bottom: 0.2em;
+	}
+	
+	img {
+		border: 1px solid $avatar-border-color;
+		border-radius: 3px;
+	}
+
+	.card {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	
+	@media screen {	
+		max-width: 48em;
+		width: auto;
+		
+		.content {
+			display: flex;
+			flex-direction: column;
+			height: $avatar-size;
+		}
+	}
+	
+	@media print {
+		page-break-before: avoid;
+	}
+}
+
+#title {
+	color: $title-color;
+	font-size: $title-font-size;
+	line-height: $title-height;
+	padding: 0.0em 0.5em;
+	text-align: center;
+}

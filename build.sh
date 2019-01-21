@@ -23,16 +23,19 @@ if [ ! -d "$OUT" ]; then
 	mkdir "$OUT"
 fi
 
-# Create the needed style file.
-styleFile="$OUT/index.css"
+# Create the CSS file to be included in the header.
+$TOOLCHAIN/sassc-linux-x64 \
+	--style compressed \
+	"$TEMPLATES/index.scss" \
+	"$OUT/index.css"
 
-# Create the css file to be included in the header.
-echo -n "<style>" > "$OUT/index.css"
-cat "$TEMPLATES/index.css" \
-	| tr --delete "\n\t" \
-	| sed --regexp-extended "s/ ?([:,>{]) ?/\1/g" \
-	>> "$OUT/index.css"
-echo -n "</style>" >> "$OUT/index.css"
+
+# Create the header include file.
+headerIncludes="$OUT/header-includes"
+
+echo -n "<style>" > "$headerIncludes"
+cat "$OUT/index.css" >> "$headerIncludes"
+echo -n "</style>" >> "$headerIncludes"
 
 # Run Pandoc.
 $TOOLCHAIN/pandoc-linux-x64 \
@@ -42,13 +45,14 @@ $TOOLCHAIN/pandoc-linux-x64 \
 	--eol=lf \
 	--template="$TEMPLATES/index.html" \
 	--lua-filter="$TOOLCHAIN/filter.lua" \
-	--include-in-header="$OUT/index.css" \
+	--include-in-header="$headerIncludes" \
 	--variable="DATE:$(date +%Y-%m-%d\ %H:%M:%S\ %::z)" \
 	--variable="GIT_REPO:https://gitlab.com/RobertZenz/bonsaimind.org" \
 	--variable="GIT_COMMIT:$(git rev-parse HEAD 2> /dev/null)" \
 	"$CONTENT/index.markdown"
 
 # Cleanup
+rm "$OUT/header-includes"
 rm "$OUT/index.css"
 
 # Copy the resource files.
