@@ -30,6 +30,13 @@ the pre-built release package from
 the [Pandoc release site](https://github.com/jgm/pandoc/releases/) and is
 licensed under the GPLv2+.
 
+The [libsass](https://github.com/sass/libsass) library (`toolchain/libsass.a') is
+the custom-built release package from the libsass repository and is licensed
+under the MIT license.
+
+The [sassc](https://github.com/sass/sassc) executable (`toolchain/sassc-linux-x64') is
+the custom-built release package from the libsass repository and is licensed
+under the MIT license.
 
 Build
 -----
