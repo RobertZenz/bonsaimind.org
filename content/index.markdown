@@ -12,7 +12,9 @@ About
 
 Java programmer, Free Software enthusiast
 
-Proud employee of [![](svg:globe)os-cillation](https://www.os-cillation.de/)
+Proud former employee of [![](svg:globe)SIB Visions](https://www.sibvisions.com/).
+
+Happy employee of [![](svg:globe)os-cillation](https://www.os-cillation.de/)
 
  * [![](svg:home)Homepage](https://www.bonsaimind.org)
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz)
