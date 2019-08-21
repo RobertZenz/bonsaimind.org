@@ -245,6 +245,8 @@ h2 {
 	}
 	
 	figure {
+		border: 1px solid $avatar-border-color;
+		border-radius: 3px;
 		float: right;
 		height: $avatar-size;
 		margin: 0;
@@ -257,8 +259,7 @@ h2 {
 	}
 	
 	img {
-		border: 1px solid $avatar-border-color;
-		border-radius: 3px;
+		border-radius: 2px;
 	}
 
 	.card {
