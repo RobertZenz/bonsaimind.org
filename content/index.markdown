@@ -14,7 +14,7 @@ Java programmer, Free Software enthusiast
 
 Proud former employee of [![](svg:globe)SIB Visions](https://www.sibvisions.com/).
 
-Happy employee of [![](svg:globe)os-cillation](https://www.os-cillation.de/)
+Happy employee of [![](svg:globe)os-cillation](https://www.os-cillation.de/).
 
  * [![](svg:home)Homepage](https://www.bonsaimind.org)
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz)
@@ -52,6 +52,28 @@ This website, generated from a [Markdown](https://daringfireball.net/projects/ma
 
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/bonsaimind.org)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/bonsaimind.org)
+
+
+![](svg:cogs)jLuaScript
+-----------------------
+
+ * Java
+
+A Java/Lua bridge which allows to access Java objects from Lua scripts.
+
+ * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/jLuaScript)
+ * [![](svg:github)GitHub](https://github.com/RobertZenz/jLuaScript)
+
+
+![](svg:cogs)jlWebScraper
+-------------------------
+
+ * Java
+
+A scraper which allows you to write scripts in Lua.
+
+ * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/jlWebScraper)
+ * [![](svg:github)GitHub](https://github.com/RobertZenz/jlWebScraper)
 
 
 ![](svg:calculator)jMathPaper
