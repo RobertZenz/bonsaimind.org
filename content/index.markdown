@@ -85,17 +85,6 @@ A simple calculator application which works similar to taking notes on a sheet o
  * [![](svg:github)GitHub](https://github.com/RobertZenz/jMathPaper)
 
 
-![](svg:cube)Quadracoatl
-------------------------
-
- * Java
-
-A FLOSS Java/Lua Bloxel game engine.
-
- * [![](svg:gitlab)GitLab](https://gitlab.com/quadracoatl/quadracoatl)
- * [![](svg:github)GitHub](https://github.com/quadracoatl/quadracoatl)
-
-
 ![](svg:puzzle-piece)ScrollOffset
 ---------------------------------
 
@@ -106,29 +95,6 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to define a scroll-of
  * [![](svg:home)Homepage](https://marketplace.eclipse.org/content/scrolloffset)
  * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/ScrollOffset)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/ScrollOffset)
-	
-
-![](svg:puzzle-piece)Werewolf
------------------------------
-
- * JavaScript
-
-A [Pale Moon](https://www.palemoon.org/) addon which allows to customize the GUI.
-
- * [![](svg:home)Homepage](https://addons.palemoon.org/addon/werewolf/)
- * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/palemoon-extension-werewolf/)
- * [![](svg:github)GitHub](https://github.com/RobertZenz/palemoon-extension-werewolf)
-
-
-![](svg:cogs)x-session-selector
--------------------------------
-
- * C
-
-A simple X session selector and startx replacement.
-
- * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/x-session-selector/)
- * [![](svg:github)GitHub](https://github.com/RobertZenz/x-session-selector)
 
 
 Contributor
@@ -144,7 +110,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to decompile class fi
 
  * [![](svg:home)Homepage](https://marketplace.eclipse.org/content/enhanced-class-decompiler)
  * [![](svg:github)GitHub](https://github.com/ecd-plugin/ecd)
-	
+
 
 ![](svg:file-archive)EvalEx
 ---------------------------
@@ -154,7 +120,7 @@ An [Eclipse](https://www.eclipse.org/) plugin which allows to decompile class fi
 A handy mathematical expression evaluator for Java.
 
  * [![](svg:github)GitHub](https://github.com/uklimaschewski/EvalEx/)
-	
+
 
 Discontinued
 ============
@@ -169,11 +135,11 @@ An easy to use launcher for [Minecraft](https://minecraft.net) (Beta 1.6 and bel
 
  * [![](svg:home)Homepage](http://easyminelauncher.bonsaimind.org)
  * [![](svg:github)GitHub](https://github.com/RobertZenz/EasyMineLauncher)
-	
+
 
 ![](svg:cube)EasyMineLauncher2
 ------------------------------
-	
+
  * Java
 
 An unfinished easy to use launcher for [Minecraft](https://minecraft.net) (Beta 1.7 and above).
@@ -199,6 +165,17 @@ A library with various tools and functions for [Minecraft](https://minecraft.net
 A discontinued subgame for [Minetest](https://www.minetest.net/).
 
  * [![](svg:gitlab)GitLab](https://gitlab.com/minetest-australopithecus)
+
+
+![](svg:cube)Quadracoatl
+------------------------
+
+ * Java
+
+A FLOSS Java/Lua Bloxel game engine.
+
+ * [![](svg:gitlab)GitLab](https://gitlab.com/quadracoatl/quadracoatl)
+ * [![](svg:github)GitHub](https://github.com/quadracoatl/quadracoatl)
 
 
 ![](svg:puzzle-piece)SimpleFirefoxAddonBase
@@ -240,3 +217,25 @@ A [Firefox](https://www.mozilla.org/en-US/firefox/)/[Pale Moon](https://www.pale
 
  * [![](svg:github)GitHub](https://github.com/RobertZenz/ThinTabs)
 
+
+![](svg:puzzle-piece)Werewolf
+-----------------------------
+
+ * JavaScript
+
+A [Pale Moon](https://www.palemoon.org/) addon which allows to customize the GUI.
+
+ * [![](svg:home)Homepage](https://addons.palemoon.org/addon/werewolf/)
+ * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/palemoon-extension-werewolf/)
+ * [![](svg:github)GitHub](https://github.com/RobertZenz/palemoon-extension-werewolf)
+
+
+![](svg:cogs)x-session-selector
+-------------------------------
+
+ * C
+
+A simple X session selector and startx replacement.
+
+ * [![](svg:gitlab)GitLab](https://gitlab.com/RobertZenz/x-session-selector/)
+ * [![](svg:github)GitHub](https://github.com/RobertZenz/x-session-selector)
